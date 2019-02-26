@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+  border:  10px 0;
+  padding: 0;
+}
+
+h1{
+    position: relative;
+    display: inline;
+    margin:  2px;
+}
+
+.poli {
+
+    animation: police .5s;
+    animation-iteration-count: 10;
+}
+
+@keyframes police {
+  33% { text-shadow: 0 0 30px blue; box-shadow: 0 0 30px blue; }
+ 
+  66% { text-shadow: 0 0 30px red; box-shadow: 0 0 30px red; }
+}

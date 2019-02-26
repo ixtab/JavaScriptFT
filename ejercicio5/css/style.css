@@ -1,0 +1,90 @@
+body {
+	background-color: lightgrey;
+	border:  0;
+	padding: 0;
+	font-family: 'Special Elite', cursive;
+	font-size:20px;
+	margin:  0;
+	background-image: url("../imagen/mantel.jpg");
+}
+
+#contenedor {
+	width: 90%;
+	margin: 50px 3%;
+	background-color: white;
+	box-shadow: 1px 1px 12px black;
+	display: block;
+	position: absolute;
+	padding: 0 20px 20px 20px;
+	border:  4px double black;
+
+}
+
+td{
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+th{
+	border-bottom: 2px double black; 
+}
+
+table{
+	width: 47%;
+	border:  1px solid black;
+	display: inline;
+	float: left;
+	margin-top: 7px;
+}
+fieldset {
+	width:  47%;
+	display: inline;
+	float: right;
+	margin-bottom: 20px;
+}
+
+caption {
+	font-size: 20px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+button {
+	float: right;
+	box-shadow: 1px 1px 10px black;
+	border:  none;
+	margin-left: 3px;
+	border-radius: 50%;
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	padding: 10px;
+}
+
+button:hover{
+	box-shadow: 1px 1px 5px black, -1px -1px 5px lightgrey;
+		border: 1px solid grey;
+}
+
+input {
+	font-family: 'Caveat', cursive;
+	color: blue;
+	font-size: 30px;
+	border:  none;
+	border-bottom: 3px dotted black;
+	cursor: url('../imagen/rodillo.gif') 15 15 ,auto;
+}
+input:focus{
+	outline:0px;
+}
+
+button:focus{
+	outline:0px;
+	border: 1px solid yellow;
+}
+
+hr {
+	border-top: 3px double black;
+	margin-top:  0px;
+}
+#titulo {
+	margin-bottom:  0px;
+}

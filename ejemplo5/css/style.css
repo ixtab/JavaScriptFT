@@ -1,0 +1,26 @@
+html,body
+	{
+	height:100%;
+	overflow:hidden;
+	background-color:#FFFFFF;
+	font-family: 'Special Elite', cursive;
+	font-size:20px;
+	margin:10px;
+	line-height:16px;
+	}
+input {
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	border:  none;
+	border-bottom: 1px dotted black;
+}
+
+input[type=button] {
+	box-shadow: 1px 1px 2px black, -1px -1px 1px grey;
+	border:  none;
+	margin-left: 3px;
+}
+
+input[type=number] {
+	width: 100px;
+}

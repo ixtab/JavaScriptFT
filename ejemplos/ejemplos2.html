@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		var i = 0;
+		parado = false;
+		function cronometro() {
+	
+			parrafos =  document.getElementsByTagName("p");
+			for ( i in parrafos){
+				parrafos[i].innerHTML="<h1>" + 
+				"<span style='font-size: "+
+				 Math.ceil(Math.random()*50)+
+				"px'>"+ (Math.random()*100000000000000000) +
+				"</span>" +
+				"<span style='font-size: "+
+				 Math.ceil(Math.random()*50)+
+				"px'>"+ (Math.random()*100000000000000000) +
+				"</span>" +
+				"<span style='font-size: "+
+				 Math.ceil(Math.random()*50)+
+				"px'>"+ (Math.random()*100000000000000000) +
+				"</span>" +
+				"<span style='font-size: "+
+				 Math.ceil(Math.random()*50)+
+				"px'>"+ (Math.random()*100000000000000000) +
+				"</span>" +
+				"<span style='font-size: "+
+				 Math.ceil(Math.random()*50)+
+				"px'>"+ (Math.random()*100000000000000000) +
+				"</span>" +
+				"<span style='font-size: "+
+				 Math.ceil(Math.random()*50)+
+				"px'>"+ (Math.random()*100000000000000000) +
+				"</span>" +
+				 "<span style='font-size: "+
+				 Math.ceil(Math.random()*50)+
+				"px'>"+ (Math.random()*100000000000000000) +
+				"</span>" +
+				"<span style='font-size: "+
+				 Math.ceil(Math.random()*50)+
+				"px'>"+ (Math.random()*100000000000000000) +
+				"</span>" +
+				"<span style='font-size: "+
+				 Math.ceil(Math.random()*50)+
+				"px'>"+ (Math.random()*100000000000000000) +
+				"</span>" +
+				"<span style='font-size: "+
+				 Math.ceil(Math.random()*50)+
+				"px'>"+ (Math.random()*100000000000000000) +
+				"</span>" +
+
+				+"</h1>"
+
+			}
+			setTimeout(function(){ 
+				cronometro(); 
+			}, 100);
+
+		}
+
+	</script>
+</head>
+<body style="overflow:hidden;">
+	<div style="margin-left: -20px;">
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	   <p></p>
+	</div>
+    <button onclick="cronometro()">Empezar</button>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+document, body {
+	overflow: hidden;
+	position: absolute;
+}
+
+input {
+	text-shadow: 2px 2px 2px red;
+}
